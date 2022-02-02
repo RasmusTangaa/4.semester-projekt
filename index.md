@@ -31,6 +31,7 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 
 123
 
+Forskellige sider på hjemmesiden: [Xamarin](https://rasmustangaa.github.io/4.semester-projekt/page2/)
 
 
 ### Jekyll Themes
