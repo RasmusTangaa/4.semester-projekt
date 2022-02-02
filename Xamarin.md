@@ -1,5 +1,4 @@
-layout: page
-title: "Side2"
+# Side for Xamarin/MAUI
 permalink: /Xamarin/
 
 
