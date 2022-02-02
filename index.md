@@ -1,3 +1,12 @@
+## Velkommen til startsiden af portfølien til 4.semester
+Mit navn er Rasmus Tangaa Jensen, og jeg går lige pt. på 4 semester af datamatiker uddannelsen.
+I dette semester har jeg 2 specialiseringsemner, som er følgende:
+1. [Xamarin](https://rasmustangaa.github.io/4.semester-projekt/Xamarin)
+2. [IT-sikkerhed](https://rasmustangaa.github.io/4.semester-projekt/IT-sikkerhed)
+
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/RasmusTangaa/4.semester-projekt/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
