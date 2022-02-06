@@ -24,3 +24,5 @@ Den studerende kan:
 - Perspektiver emnet xamarin med allerede lærte emner på uddannelsen. eks. mvc, api'er, blazor.
 
 
+Litteratur:
+[Youtube - James Montemagno - Xamarin](https://www.youtube.com/playlist?list=PLwOF5UVsZWUiHY1CkRVjYJ6dm0iCvAlfw)
