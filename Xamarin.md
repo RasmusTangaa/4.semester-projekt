@@ -26,3 +26,4 @@ Den studerende kan:
 
 Litteratur:
 [Youtube - James Montemagno - Xamarin](https://www.youtube.com/playlist?list=PLwOF5UVsZWUiHY1CkRVjYJ6dm0iCvAlfw)
+[Microsoft egen Xamarin læringsside] (https://dotnet.microsoft.com/en-us/learn/xamarin)
