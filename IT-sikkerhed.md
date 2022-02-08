@@ -22,7 +22,7 @@ Den studerende kan
 
 # Uge 6-7
 plan for ugerne:
-- Påbegynd TryHackMe.com's første kursus indenfor IT-sikkerhed. Her kommer der muligvis noget genopfriskning af emner fra forrige semestre(Teknologi). Første kursus varer ca. 40 timer.
+- Påbegynd TryHackMe.com's første kursus indenfor IT-sikkerhed. Her kommer der muligvis noget genopfriskning af emner fra forrige semestre(Teknologi). Første kursus varer ca. 40 timer. Derfor er det ikke sikkert jeg bliver færdig på to uger, da jeg også kører Xamarin ved siden af.
 - Derudover vil jeg kigge på noget abuse case og andre ting, der kan få mig igang med emnet.
 - Planen herefter er at tage et kursus mere på TryHackMe.com, som er omkring Penetration testing.
 
