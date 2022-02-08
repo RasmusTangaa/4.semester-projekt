@@ -19,3 +19,17 @@ Den studerende kan
 - formidle resultater indenfor it-sikkerhed.
 
 
+
+# Uge 6-7
+plan for ugerne:
+- Påbegynd TryHackMe.com's første kursus indenfor IT-sikkerhed. Her kommer der muligvis noget genopfriskning af emner fra forrige semestre(Teknologi). Første kursus varer ca. 40 timer.
+- Derudover vil jeg kigge på noget abuse case og andre ting, der kan få mig igang med emnet.
+- Planen herefter er at tage et kursus mere på TryHackMe.com, som er omkring Penetration testing.
+
+
+Litteratur:
+[TryHackME.com](https://tryhackme.com/)
+[Abuse case info](https://cheatsheetseries.owasp.org/cheatsheets/Abuse_Case_Cheat_Sheet.html)
+
+
+
