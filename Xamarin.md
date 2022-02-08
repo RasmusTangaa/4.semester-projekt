@@ -15,13 +15,23 @@ Færdigheder:
 Den studerende kan
 - finde relevant litteratur indenfor Xamarin/MAUI.
 - Diskutere samfundsmæssige aspekter indefor appudvikling med Xamarin/MAUI.
-- Vurdere problemstillinger og opstille løsningmuligheder.
+- Vurdere problemstillinger til Xamarin/MAUI og opstille løsningmuligheder dertil.
 - formidle de centrale resultater indenfor Xamarin gennem en portefølje.
 
 Kompentencer:
 Den studerende kan:
 - Selvstændigt sætte sig ind i teorien og praksis til Xamarin
 - Perspektiver emnet xamarin med allerede lærte emner på uddannelsen. eks. mvc, api'er, blazor.
+
+
+
+
+
+# Uge 6-7
+Plan for ugen:
+- Opsætning af Visual Studio med Xamarin/MAUI, samt en Emulator og egen android device til udvikling.
+- Påbegynd Læringsmateriale på Microsoft's egen hjemmeside.
+- Påbegynd James Montemagnos youtube serie med Xamarin.
 
 
 Litteratur:
