@@ -39,3 +39,4 @@ Litteratur:
 1. [Youtube - James Montemagno - Xamarin](https://www.youtube.com/playlist?list=PLwOF5UVsZWUiHY1CkRVjYJ6dm0iCvAlfw)
 2. [Microsoft egen Xamarin læringsside](https://dotnet.microsoft.com/en-us/learn/xamarin)
 3. [Build mobile apps with Xamarin.Forms - Learning path - 10 moduler](https://docs.microsoft.com/da-dk/learn/paths/build-mobile-apps-with-xamarin-forms/)
+4. [Customize and add advanced features to Xamarin.Forms apps - Learning path - 9 moduller](https://docs.microsoft.com/da-dk/learn/paths/customize-your-xamarin-forms-apps/)
