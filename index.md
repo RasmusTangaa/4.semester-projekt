@@ -5,8 +5,8 @@ I dette semester har jeg 2 specialiseringsemner, som er følgende:
 2. [IT-sikkerhed](https://rasmustangaa.github.io/4.semester-projekt/IT-sikkerhed)
 
 Derudover har jeg følgende sider:
-1. [Om mig selv]()
-2. [Om projektet]()
+1. [Om mig selv](https://rasmustangaa.github.io/4.semester-projekt/OmMig)
+2. [Om projektet](https://rasmustangaa.github.io/4.semester-projekt/Projekt)
 
 # [Support-side](https://rasmustangaa.github.io/4.semester-projekt/Supportside)
 
