@@ -1,5 +1,5 @@
 # Side for Xamarin/MAUI
-permalink: /Xamarin/
+
 
 
 
