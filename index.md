@@ -4,7 +4,9 @@ I dette semester har jeg 2 specialiseringsemner, som er følgende:
 1. [Xamarin/MAUI](https://rasmustangaa.github.io/4.semester-projekt/Xamarin)
 2. [IT-sikkerhed](https://rasmustangaa.github.io/4.semester-projekt/IT-sikkerhed)
 
-
+Derudover har jeg følgende sider:
+1. [Om mig selv]()
+2. [Om projektet]()
 
 # [Support-side](https://rasmustangaa.github.io/4.semester-projekt/Supportside)
 
