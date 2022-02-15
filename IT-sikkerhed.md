@@ -27,6 +27,7 @@ plan for ugerne:
 Litteratur:
 1. [TryHackME.com](https://tryhackme.com/)  
 2. [Abuse case info](https://cheatsheetseries.owasp.org/cheatsheets/Abuse_Case_Cheat_Sheet.html)
+3. [LinkedIn learning kursus - Become a CompTIA Security+ Certified Security Professional (SY0-601)](https://www.linkedin.com/learning/paths/become-a-comptia-security-plus-certified-security-professional-sy0-601?u=57075649)
 
 
 
