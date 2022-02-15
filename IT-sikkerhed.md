@@ -25,8 +25,8 @@ plan for ugerne:
 
 
 Litteratur:
-[TryHackME.com](https://tryhackme.com/)  
-[Abuse case info](https://cheatsheetseries.owasp.org/cheatsheets/Abuse_Case_Cheat_Sheet.html)
+1. [TryHackME.com](https://tryhackme.com/)  
+2. [Abuse case info](https://cheatsheetseries.owasp.org/cheatsheets/Abuse_Case_Cheat_Sheet.html)
 
 
 
