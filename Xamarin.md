@@ -38,6 +38,17 @@ Plan for ugen:
 - Påbegynd Læringsmateriale på Microsoft's egen hjemmeside.
 - Påbegynd James Montemagnos youtube serie med Xamarin.
 
+Refleksioner på ugerne:
+- Generelt nogle lidt sløje uger, grundet nogle problemer med opsætning af visual studio. Blev ved med at få fejl da jeg lavede de forskellige læringsmoduller på VS2019. Derfor skiftede jeg over til VS2022, hvor jeg brugte enterprice versionen. Ydermere blev denne version udskiftet i uge 7 til Community versionen, da enterprice versionen kun var en trial. Community versionen fungere helt fint på nuværende tidspunkt, så derfor forventer jeg større fremskridt de næste 2 uger.
+- Har opnået at fuldføre 5 af de 10 moduller fra læringsforløbet om Xamarin.Forms(3). Disse moduller er der nedskrevet noter til, men skal muligvis rettes lidt til, så de er bedre forståelige, hvis jeg skal kigge tilbage på dem.
+- Derudover har jeg gennemgået nogle af James Montemagno's videoer, men gik ret hurtigt over til læringsforløbet fra Microsoft.
+
+# Uge 8-9
+Plan for ugen:
+- Færdiggøre de resterende 5 moduller af Microsofts læringsforløb(3).
+- Undersøge muligheden for at kunne se det jeg udvikler på IOS. Bliver nok gennem en emulator. Indtil videre har jeg kun set android's udgave af mine Xamarin.forms opgaver.
+- Undersøge mere materiale om Xamarin, nok mest MAUI, så jeg er klar til nogle læringsforløb/video serier senere hen.
+
 
 Litteratur:
 
