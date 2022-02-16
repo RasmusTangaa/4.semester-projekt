@@ -15,7 +15,10 @@ Den studerende kan
 - Vurdere problemstillinger indenfor It-sikkerhed, og lave løsningsforslag dertil.
 - formidle resultater indenfor it-sikkerhed.
 
-
+# Tidsplan:  
+- Tirsdag 9:00-15:00
+- Torsdag 9:00-15:00
+- Fredag Valgfri mellem Appudvikling og It-Sikkerhed 9:00-15:00
 
 # Uge 6-7
 plan for ugerne:
