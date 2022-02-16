@@ -24,6 +24,10 @@ Den studerende kan:
 - Selvstændigt sætte sig ind i teorien og praksis til Xamarin
 - Perspektiver emnet xamarin med allerede lærte emner på uddannelsen. eks. mvc, api'er, blazor.
 
+# Tidsplan:  
+- Mandag 9:00-15:00
+- Onsdag 9:00-15:00
+- Fredag Valgfri mellem Appudvikling og It-Sikkerhed 9:00-15:00
 
 
 
