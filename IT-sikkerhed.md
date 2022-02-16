@@ -26,6 +26,15 @@ plan for ugerne:
 - Derudover vil jeg kigge på noget abuse case og andre ting, der kan få mig igang med emnet.
 - Planen herefter er at tage et kursus mere på TryHackMe.com, som er omkring Penetration testing.
 
+Refleksioner på ugerne:
+- Har været meget opstartsprægede, da jeg ikke har haft styr på hvad jeg ville undersøge indenfor faget. Har derfor brugt det meste af min tid på TryHackMe.com for at lave deres læringsforløb om cyber security. Der er dog noget repetition fra 3.semester med teknologi indblandet. Regner med at bruge noget weekenden på at indhente selve kurset, og dermed gå lidt hurtigt igennem de fleste repetitions ting.
+- Har fået kigget på noget abuse case.
+
+# Uge 8-9
+Plan for ugerne:
+- Gå igang med et nyt forløb på linkedIn(3).
+- Ud fra linkedIn forløbet, så finder jeg muligvis den retning jeg vil have.
+
 
 Litteratur:
 1. [TryHackME.com](https://tryhackme.com/)  
