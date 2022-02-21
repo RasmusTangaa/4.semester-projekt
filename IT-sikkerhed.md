@@ -42,6 +42,7 @@ Litteratur:
 2. [Abuse case info](https://cheatsheetseries.owasp.org/cheatsheets/Abuse_Case_Cheat_Sheet.html)
 3. [LinkedIn learning kursus - Become a CompTIA Security+ Certified Security Professional (SY0-601)](https://www.linkedin.com/learning/paths/become-a-comptia-security-plus-certified-security-professional-sy0-601?u=57075649)
 4. [CompTIA Security+ - Threats, Attacks and vulnerabilities - kursus 1.](https://www.linkedin.com/learning/comptia-security-plus-sy0-601-cert-prep-1-threats-attacks-and-vulnerabilities/threats-attacks-and-vulnerabilities?autoAdvance=true&autoSkip=false&autoplay=true&contextUrn=urn%3Ali%3AlyndaLearningPath%3A57bdd64992015ae4c0cb990e&resume=true&u=57075649)
+5. [CertMike.com](https://www.certmike.com/)
 
 
 
