@@ -34,12 +34,14 @@ Refleksioner på ugerne:
 Plan for ugerne:
 - Gå igang med et nyt forløb på linkedIn(3).
 - Ud fra linkedIn forløbet, så finder jeg muligvis den retning jeg vil have.
+- Jeg går igang med første kursus i LinkedIn forløbet - Threats, Attacks and vulnerabilities.
 
 
 Litteratur:
 1. [TryHackME.com](https://tryhackme.com/)  
 2. [Abuse case info](https://cheatsheetseries.owasp.org/cheatsheets/Abuse_Case_Cheat_Sheet.html)
 3. [LinkedIn learning kursus - Become a CompTIA Security+ Certified Security Professional (SY0-601)](https://www.linkedin.com/learning/paths/become-a-comptia-security-plus-certified-security-professional-sy0-601?u=57075649)
+4. [CompTIA Security+ - Threats, Attacks and vulnerabilities - kursus 1.](https://www.linkedin.com/learning/comptia-security-plus-sy0-601-cert-prep-1-threats-attacks-and-vulnerabilities/threats-attacks-and-vulnerabilities?autoAdvance=true&autoSkip=false&autoplay=true&contextUrn=urn%3Ali%3AlyndaLearningPath%3A57bdd64992015ae4c0cb990e&resume=true&u=57075649)
 
 
 
