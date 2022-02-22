@@ -34,7 +34,7 @@ Refleksioner på ugerne:
 Plan for ugerne:
 - Gå igang med et nyt forløb på linkedIn(3).
 - Ud fra linkedIn forløbet, så finder jeg muligvis den retning jeg vil have.
-- Jeg går igang med første kursus i LinkedIn forløbet - Threats, Attacks and vulnerabilities(4).
+- Jeg går igang med første kursus i LinkedIn forløbet - Threats, Attacks and vulnerabilities(4) - [Threats, Attacks and Vulnerabilities noter](https://docs.google.com/document/d/1aN9vuyn975IJPwJSYoDo7DrhKfCvR8_X8ig1tsHfjh0/edit?usp=sharing).
 
 
 Litteratur:
