@@ -37,6 +37,23 @@ Plan for ugerne:
 - Jeg går igang med første kursus i LinkedIn forløbet - Threats, Attacks and vulnerabilities(4) - [Threats, Attacks and Vulnerabilities noter](https://docs.google.com/document/d/1aN9vuyn975IJPwJSYoDo7DrhKfCvR8_X8ig1tsHfjh0/edit?usp=sharing).
 
 
+
+
+# Software Quality Assurance - 2
+
+# Code review
+
+Plan for hvordan man normalt vil gennemgå kvalitet af den kode man laver.
+
+![image alt text](image_0.png)
+
+# Software testing
+
+Verification vs Validation
+
+![image alt text](image_1.png)
+
+
 Litteratur:
 1. [TryHackME.com](https://tryhackme.com/)  
 2. [Abuse case info](https://cheatsheetseries.owasp.org/cheatsheets/Abuse_Case_Cheat_Sheet.html)
