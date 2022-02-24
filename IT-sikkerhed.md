@@ -61,6 +61,7 @@ Litteratur:
 4. [CompTIA Security+ - Threats, Attacks and vulnerabilities - kursus 1.](https://www.linkedin.com/learning/comptia-security-plus-sy0-601-cert-prep-1-threats-attacks-and-vulnerabilities/threats-attacks-and-vulnerabilities?autoAdvance=true&autoSkip=false&autoplay=true&contextUrn=urn%3Ali%3AlyndaLearningPath%3A57bdd64992015ae4c0cb990e&resume=true&u=57075649)
 5. [CertMike.com](https://www.certmike.com/)
 6. [Foundations of information Security](https://ihatefeds.com/No.Starch-2020-Foundations.of.Information.Security.pdf)
+7. [Zap](https://www.zaproxy.org/)
 
 
 
