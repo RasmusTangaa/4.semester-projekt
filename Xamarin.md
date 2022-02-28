@@ -30,6 +30,10 @@ Den studerende kan:
 - Fredag Valgfri mellem Appudvikling og It-Sikkerhed 9:00-15:00
 
 
+# Samlet side med læring/noter indenfor Xamarin/MAUI.
+[Xamarin Læringsside](https://rasmustangaa.github.io/4.semester-projekt/XamarinLæringsside/)
+
+
 
 
 # Uge 6-7
