@@ -31,7 +31,7 @@ Den studerende kan:
 
 
 # Samlet side med læring/noter indenfor Xamarin/MAUI.
-[Xamarin Læringsside](https://rasmustangaa.github.io/4.semester-projekt/XamarinLæringsside/)
+[Xamarin Læringsside](https://rasmustangaa.github.io/4.semester-projekt/Pictures/XamarinLæringsside/)
 
 
 
