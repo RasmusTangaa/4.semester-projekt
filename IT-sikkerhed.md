@@ -20,6 +20,11 @@ Den studerende kan
 - Torsdag 9:00-15:00
 - Fredag Valgfri mellem Appudvikling og It-Sikkerhed 9:00-15:00
 
+
+# Læringsside/Noter til IT-sikkerhed
+[IT-sikkerhed læringsside](https://rasmustangaa.github.io/4.semester-projekt/Pictures/IT-SikkerhedLæringsside/)
+
+
 # Uge 6-7
 plan for ugerne:
 - Påbegynd TryHackMe.com's første kursus indenfor IT-sikkerhed. Her kommer der muligvis noget genopfriskning af emner fra forrige semestre(Teknologi). Første kursus varer ca. 40 timer. Derfor er det ikke sikkert jeg bliver færdig på to uger, da jeg også kører Xamarin ved siden af.
