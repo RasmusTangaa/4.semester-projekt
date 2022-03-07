@@ -41,7 +41,15 @@ Plan for ugerne:
 - Ud fra linkedIn forløbet, så finder jeg muligvis den retning jeg vil have.
 - Jeg går igang med første kursus i LinkedIn forløbet - Threats, Attacks and vulnerabilities(4) - [Threats, Attacks and Vulnerabilities noter](https://docs.google.com/document/d/1aN9vuyn975IJPwJSYoDo7DrhKfCvR8_X8ig1tsHfjh0/edit?usp=sharing).
 
+Refleksioner på ugerne:
+- Har fået gennemgået første kursus(4).
+- Fik også gennemgået et andet kursus omkring "Secure Code design".
+- Er muligvis begyndt at overveje at finde et andet emne grundet manglende retning specifikation i forhold til at kunne lave noget produkt relateret. Lige umiddelbart vil det produktrelateret dreje sig om sikkerhed i min mobil app, samt den tilhørende hjemmeside en anden fra gruppen laver. Mangler dog noget konkret jeg kan dykke ned i.
 
+
+# Uge 10-11
+- Prøver på at finde noget konkret jeg kan lave som produkt i forhold til it-sikkerhed med min app, samt hjemmesiden.
+- Hvis jeg ikke finder retningen indenfor disse uger, så vil jeg evt. prøve at kigge efter et andet emne.
 
 
 
