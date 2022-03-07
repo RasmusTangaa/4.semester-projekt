@@ -53,6 +53,19 @@ Plan for ugen:
 - Undersøge muligheden for at kunne se det jeg udvikler på IOS. Bliver nok gennem en emulator. Indtil videre har jeg kun set android's udgave af mine Xamarin.forms opgaver.
 - Undersøge mere materiale om Xamarin, nok mest MAUI, så jeg er klar til nogle læringsforløb/video serier senere hen.
 
+Refleksioner på ugerne:
+- de resterende 5 moduller gennemført af Microsofts læringsforløb(3).
+- Fundet ud af, at jeg nok holder mig til at udvikle på Android. Især fordi at det nye MAUI ikke er opdelt i 3(primær projekt, Android, IOS), men istedet som en enkelt projekt. Derfor behøves jeg ikke som sådan se det udviklede corss platform produkt på IOS.
+- God struktur på ugerne, med pågyndelse på halvdelen af det næste læringsforløb i løbet af de næste to ugers tid.
+- Umiddelbart kommer der nogle læringsmoduller hos Microsoft om MAUI, men hvis de ikke når at komme, så må jeg finde diverse youtube videoer/sider til at lære forskellene mellem Xamarin.forms og MAUI.
+
+
+# Uge 10-11
+Plan for ugen:
+- Påbegyndelse af 5 ud af 9 moduller i det nye læringsforløb(4).
+- Mere arbejde på appen til produktet.
+
+
 
 Litteratur:
 
