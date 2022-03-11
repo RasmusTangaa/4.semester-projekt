@@ -63,6 +63,7 @@ Litteratur:
 5. [CertMike.com](https://www.certmike.com/)
 6. [Foundations of information Security](https://ihatefeds.com/No.Starch-2020-Foundations.of.Information.Security.pdf)
 7. [OWASP - Zap](https://www.zaproxy.org/)
+8. [Owasp top 10](https://owasp.org/Top10/A01_2021-Broken_Access_Control/)
 
 
 
