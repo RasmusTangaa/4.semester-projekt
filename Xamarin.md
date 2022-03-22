@@ -65,6 +65,19 @@ Plan for ugen:
 - Påbegyndelse af 5 ud af 9 moduller i det nye læringsforløb(4).
 - Mere arbejde på appen til produktet.
 
+Refleksioner på ugerne:
+- Jeg har fået færdiggjort alle 5 moduller.
+- Jeg har fået arbejdet på appen til produktet, men ikke lige så meget som jeg ville, da jeg blev ramt af influenza.
+
+
+# Uge 12-13
+- de resterende 4 moduller af læringsforløbet(4).
+- Muligvis noget fokus på at lave noget med MAUI, og måske prøve MAUI med blazor, da blazor virkede super godt til web applikationer fra 3.semester. Det kunne derfor være sjovt at have lidt erfaring med dette også.
+- Ellers er det mest af alt at få lavet noget appen, da der ikke er så meget mere direkte teori omkring xamarin. Fokus lægges nok meget over på IT-sikkerhed, da emnet har været lidt forsømt.
+
+
+
+
 
 
 Litteratur:
