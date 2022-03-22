@@ -31,7 +31,12 @@ Den studerende kan:
 
 
 # Samlet side med læring/noter indenfor Xamarin/MAUI.
-[Xamarin Læringsside](https://rasmustangaa.github.io/4.semester-projekt/Pictures/XamarinLæringsside/)
+Dette link skal være til en samlet side med de noter jeg har indsamlet under forløbene, hvis de ikke skal ligge i et google docs.  
+[Xamarin Læringsside](https://rasmustangaa.github.io/4.semester-projekt/Pictures/XamarinLæringsside/)  
+
+Nedenunder er links til to google docs, hvor jeg har samlet alle noter fra den teori og øvelser jeg har lavet fra hvert forløb:  
+[Xamarin læringsforløb 1](https://docs.google.com/document/d/1bPC-q2mc4XWU49nun1oayt68zCQ0L4H2Ebyn2vz9Qk0/edit?usp=sharing)  
+[Xamarin læringsforløb 2](https://docs.google.com/document/d/1kO2gm5pHaI_A5zxz873MZ5K6eH5Rg490gxhWyOK6rO4/edit?usp=sharing)
 
 
 
