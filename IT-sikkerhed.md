@@ -51,6 +51,46 @@ Refleksioner på ugerne:
 - Prøver på at finde noget konkret jeg kan lave som produkt i forhold til it-sikkerhed med min app, samt hjemmesiden.
 - Hvis jeg ikke finder retningen indenfor disse uger, så vil jeg evt. prøve at kigge efter et andet emne.
 
+Refleksioner:
+- Lige umiddelbart tænker jeg at jeg fuldfører TryHackMe's penetration testing kursus, og prøver at bruge de ting jeg lærer der til at teste vores app og website på projektet, når vi står tilbage med nogle fuldendte produkter der skal testes.
+- Generelt sløje uger, da jeg har været ramt af influenza.
+
+# Virksomhedsbesøg Infowise d. 17 marts 2022.
+Generelt et hyggeligt og lærerigt besøg, hvor vi som guild fik indblik i, hvordan de som virksomhed sikrede deres kunder imod sikkerhedsmæssige trusler.
+Herunder kan der ses nogle af de informationer vi fik ud af denne dag.
+- Microsoft 365 defender for business speciale
+Azure, indentity.
+Overblik over deres kunder og deres sikkerhedsniveau.
+Threat analytics(hvilke trusler er der, og hvor store er de).
+Simulation angreb gennem e-mail efter aftale med kunder. Her tester man hvor mange medarbejdere der falder for disse simulerede pishing mails. 
+
+- Mitre attack hjemmeside blev anbefalet 
+
+- De prøver faktisk ikke at lokke så mange nye kunder til med deres sikkerhedsanalyse, men prøver mest at holde på de kunder de allerede har. Her betaler kunderne forskellige beløb ud fra hvor man sikkerhedsfeatures de vil have. 
+
+- Kundesegmenter primært små virksomheder, under 300 folk. De fungere i princippet som en ekstern IT afdeling. 
+
+- En vilje til at lære de it-sikkerhed principper de laver, så ansætter de folk. De går altså ikke nødvendigvis efter folk med en masse erfaring.
+  Der går ca. 1 år fra at man kommer ind i virksomheden, til at man får sine helt egne kunder. 
+
+- Generelle certificeringer på Microsoft learn, hvis man har viljen til at lære, så er der job. 
+
+- Indtil Corona havde de rigtig meget fysisk kontakt med deres kunder, for at få et godt overblik over kunderne som mennesker, og mærke deres behov indenfor it sikkerhed.
+Da Corona ramte blev det hele vendt på hovedet. 
+
+- Et team per kunde, hvor teamet er sammensat af forskellige personer/roller. 
+
+- De ansætter/Har praktik primært for data tekniker og it supporter, men har også en udviklings afdeling hvor de har haft praktikforløb hvor de sidder og laver software. 
+
+- Hvis deres kunder bliver hacket, så undersøger de ret hurtigt hvem der har angrebet, samt prøver at lave løsninger til at hente det hackede data tilbage.
+
+
+- Ingen direkte anvendte metoder og modeller hver gang, men er mere lavet specifikt ud fra hvad virksomheden ønsker, og dertil finder scanningsværktøjer der kan    hjælpe.
+ De bruger primært microsoft365 værktøjer, da et værktøj til f.eks 29kr pr. Person er billigt, i forhold til noget man selv skal implementere på f.eks 1800 timers løn.
+
+# Uge 12-13
+- tryHackMe penetration kursus skal gennemføres så hurtigt som muligt, så jeg har lidt erfaring med, hvordan man sikkerhedstester applikationer.
+
 
 
 
