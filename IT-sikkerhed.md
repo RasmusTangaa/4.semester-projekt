@@ -22,7 +22,14 @@ Den studerende kan
 
 
 # Læringsside/Noter til IT-sikkerhed
+
+Denne side er til hvis jeg vil lægge alt mit teori materiale over i github fra google docs.  
 [IT-sikkerhed læringsside](https://rasmustangaa.github.io/4.semester-projekt/Pictures/IT-SikkerhedLæringsside/)
+
+Indtil videre ligger det hele i følgende google docs:  
+[TryHackMe - JR Penetration Tester](https://docs.google.com/document/d/1fM5bjJ9Q59JpzexwF0HvvjpDg40yFVp3klc_tUpUEGM/edit?usp=sharing)  
+[CompTIA Security+  - Threats, Attacks and vulnerabilities ](https://docs.google.com/document/d/1aN9vuyn975IJPwJSYoDo7DrhKfCvR8_X8ig1tsHfjh0/edit?usp=sharing)  
+[CompTIA Security+ Secure Code design](https://docs.google.com/document/d/1xdSwMNRy2FeN_9Dsm5BNt4W1y7Z_mwJ4yzX_LqybBhg/edit?usp=sharing)  
 
 
 # Uge 6-7
