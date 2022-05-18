@@ -1,9 +1,9 @@
 [Tilbage](https://rasmustangaa.github.io/4.semester-projekt/)  
 Hej dette er min side til at afdække mit emne IT-sikkerhed
 
-Læringsmål It-sikkerhed:
+# Læringsmål It-sikkerhed:
 
-Viden
+# Viden
 Den studerende har viden om:  
 - Web hacking/penetration testing, som inkludere emner som:
  1. Browser developer tools
@@ -22,7 +22,7 @@ Den studerende har viden om:
  - Metasploit
  - Privilege Escalation
 
-Færdigheder  
+# Færdigheder  
 Den studerende kan:
 
 - Opsamle informationer omkring en web applikations sårbarheder, før at man bryder igennem eller udnytter disse sårbarheder.
@@ -30,7 +30,7 @@ Den studerende kan:
 - gøre brug af værktøjer til at automatisere penetration testing processen, heriblandt Burp Suite og Metasploit.
 
 
-Kompetencer
+# Kompetencer
 
 Den studerende kan  
 - Perspektivere IT-sikkerheds emnet til et tidligere emne som Programmering, da man på daværende tidspunkt ikke havde så meget erfaring med selve sikkerheden til web applikationer.
