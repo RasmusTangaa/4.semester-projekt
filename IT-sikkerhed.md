@@ -1,19 +1,41 @@
 [Tilbage](https://rasmustangaa.github.io/4.semester-projekt/)  
 Hej dette er min side til at afdække mit emne IT-sikkerhed
 
-Læringsmål:
+Læringsmål It-sikkerhed:
 
-Viden:
-Den studerende har viden om
-- Sikkerhed indenfor appudvikling.
-- generel viden indenfor it-sikkerhed.
+Viden
+Den studerende har viden om:  
+- Web hacking/penetration testing, som inkludere emner som:
+ 1. Browser developer tools
+ 2. Content discovery
+ 3. Subdomain Enumeration
+ 4. Authentication bypass
+ 5. IDOR
+ 6. File Inclusion
+ 7. SSRF
+ 8. Cross-site Scripting
+ 9. Command injection
+ 10. SQL injection
+ - Burp suite til at opfange og manipulere web requests.
+ - Netværksscanninger med nmap og netværksprotokoller
+ - Hvordan man undersøger sårbarheder til webapplikationer
+ - Metasploit
+ - Privilege Escalation
 
-Færdigheder:
-Den studerende kan
-- finde relevant litteratur indenfor It-sikkerhed
-- Diskuterer samfundsrelaterede aspekter til it-sikkerhed
-- Vurdere problemstillinger indenfor It-sikkerhed, og lave løsningsforslag dertil.
-- formidle resultater indenfor it-sikkerhed.
+Færdigheder  
+Den studerende kan:
+
+- Opsamle informationer omkring en web applikations sårbarheder, før at man bryder igennem eller udnytter disse sårbarheder.
+- anvende centrale teknikker indenfor penetration testing til at gennemteste sårbarheder af en webapplikation, så sikkerheden øges.
+- gøre brug af værktøjer til at automatisere penetration testing processen, heriblandt Burp Suite og Metasploit.
+
+
+Kompetencer
+
+Den studerende kan  
+- Perspektivere IT-sikkerheds emnet til et tidligere emne som Programmering, da man på daværende tidspunkt ikke havde så meget erfaring med selve sikkerheden til web applikationer.
+- Bruge viden, teknikker og værktøjer indenfor penetration testing, til at komme med mulige løsningsforslag til at øge sikkerheden.
+
 
 # Tidsplan:  
 - Tirsdag 9:00-15:00
@@ -23,14 +45,14 @@ Den studerende kan
 
 # Læringsside/Noter til IT-sikkerhed
 
-Denne side er til hvis jeg vil lægge alt mit teori materiale over i github fra google docs.  
-[IT-sikkerhed læringsside](https://rasmustangaa.github.io/4.semester-projekt/Pictures/IT-SikkerhedLæringsside/)
-
-Indtil videre ligger det hele i følgende google docs:  
+Indtil videre har jeg følgende google docs, hvor alt teori og praksis jeg har været igennem er beskrevet:  
 [TryHackMe - JR Penetration Tester](https://docs.google.com/document/d/1fM5bjJ9Q59JpzexwF0HvvjpDg40yFVp3klc_tUpUEGM/edit?usp=sharing)  
 [CompTIA Security+  - Threats, Attacks and vulnerabilities ](https://docs.google.com/document/d/1aN9vuyn975IJPwJSYoDo7DrhKfCvR8_X8ig1tsHfjh0/edit?usp=sharing)  
 [CompTIA Security+ Secure Code design](https://docs.google.com/document/d/1xdSwMNRy2FeN_9Dsm5BNt4W1y7Z_mwJ4yzX_LqybBhg/edit?usp=sharing)  
 
+# Produktside til IT-sikkerhed
+Denne side er beregnet til at vise det produkt jeg har fået ud af IT-sikkerhed   
+[IT-sikkerhed læringsside](https://rasmustangaa.github.io/4.semester-projekt/Pictures/IT-SikkerhedLæringsside/)
 
 # Uge 6-7
 plan for ugerne:
@@ -98,6 +120,30 @@ Da Corona ramte blev det hele vendt på hovedet.
 # Uge 12-13
 - tryHackMe penetration kursus skal gennemføres så hurtigt som muligt, så jeg har lidt erfaring med, hvordan man sikkerhedstester applikationer.
 
+Refleksioner:
+- Lige umiddelbart er jeg nået 40% færdiggørelse af kurset, som sammenlagt er omkring 60 timer langt(højst sandsynligt dobbelt så lang tid, når der tages noter dertil)
+
+
+# Uge 14
+- Hurtig opdatering er, at jeg er nået til 50% færdiggørelse af kurset.
+- Derudover har jeg været på et virksomhedsbesøg hose Hesehus med mit team, hvor man fik et indblik i mange af deres afdelinger. Mine emner it-sikkerhed og appudvikling passede som sådan godt til virksomheden, men vi fik ikke set så meget af deres direkte arbejde med tingene.
+
+
+# Uge 15 - Påskeferie
+
+# Uge 16-17
+
+- Målet med IT-sikkerhed i disse uger er igen at nå så langt som muligt med JR pentesting kurset.
+
+Refleksioner:
+- Jeg er nået til omkring 75% færdiggørelse, hvilket er blevet lidt forstyrret af, at jeg har skulle søge en masse praktiksteder osv. Men alt i alt er det tilfredstillende.
+
+
+# Uge 18-19
+- Målet er at færdiggøre pentesting kurset, og derefter begynde at opsætte de forskellige scenarier/exercises jeg har været igennem kurset som et form for produkt, Da det ikke virker muligt at at begynde at lave pentesting på min gruppes apps og websites grundet tiden.
+
+Refleksioner:
+- Kurset er gennemført 100%, dog har jeg ikke fået opsat de forskellige exercises/resultater i min produkt portefølje, hvilket de resterende uger kommer til at gå med.
 
 
 
