@@ -6,23 +6,28 @@
 
 Hej dette er min side til at afdække min emne: Xamarin.
 
-Læringsmål for Xamarin:
-Viden:
-Den studerende har viden om
-- appudvikling med Xamarin som udviklingsværktøj, samt en tilkobling af Xamarin.Forms og MAUI.
-- Hvordan Xamarin/MAUI er relevant indenfor IT-verdenen i form af appudvikling.
+# Læringsmål Xamarin Appudvikling:
+# Viden
+Den studerende har viden om:  
+- Teori om design muligheder til en Xamarin Applikation
+- Teori om arkitekturen MVVM i Xamarin
+- Teori om brugen af databaser til en Xamarin Applikation
+- Teori om brugen af REST API services i en Xamarin Applikation
+- Teori om brugen og design af bestemte komponenter i en Xamarin Applikation
 
-Færdigheder:
-Den studerende kan
-- finde relevant litteratur indenfor Xamarin/MAUI.
-- Diskutere samfundsmæssige aspekter indefor appudvikling med Xamarin/MAUI.
-- Vurdere problemstillinger til Xamarin/MAUI og opstille løsningmuligheder dertil.
-- formidle de centrale resultater indenfor Xamarin gennem en portefølje.
 
-Kompentencer:
-Den studerende kan:
-- Selvstændigt sætte sig ind i teorien og praksis til Xamarin
-- Perspektiver emnet xamarin med allerede lærte emner på uddannelsen. eks. mvc, api'er, blazor.
+# Færdigheder
+Den studerende kan:  
+- Anvende centrale teknikker til at designe og konstruere Xamarin Applikationer med flere samtidige brugere baseret på samarbejdende processer i en distribueret arkitektur.
+- Vurdere kvalitative konsekvenser ved et evt. løsningsforslag til en Xamarin applikation/komponent.
+- anvende designmønstre som MVVM til konstruere en Xamarin Applikation.
+- anvende database og API services til at hente og gemme data til en Xamarin applikation.
+
+# Kompetencer
+Den studerende kan:  
+- Perspektivere App Udvikling i Xamarin til tidligere programmerings emner, hvor der blev brugt lignende værktøjer som XAML, MVVM, samt samme programmeringssprog i C#.
+- Deltage aktivt i et projekt, hvor der skal bruges en Applikation til.
+
 
 # Tidsplan:  
 - Mandag 9:00-15:00
@@ -31,15 +36,15 @@ Den studerende kan:
 
 
 # Samlet side med læring/noter indenfor Xamarin/MAUI.
-Dette link skal være til en samlet side med de noter jeg har indsamlet under forløbene, hvis de ikke skal ligge i et google docs.  
-[Xamarin Læringsside](https://rasmustangaa.github.io/4.semester-projekt/Pictures/XamarinLæringsside/)  
 
 Nedenunder er links til to google docs, hvor jeg har samlet alle noter fra den teori og øvelser jeg har lavet fra hvert forløb:  
 [Xamarin læringsforløb 1](https://docs.google.com/document/d/1bPC-q2mc4XWU49nun1oayt68zCQ0L4H2Ebyn2vz9Qk0/edit?usp=sharing)  
 [Xamarin læringsforløb 2](https://docs.google.com/document/d/1kO2gm5pHaI_A5zxz873MZ5K6eH5Rg490gxhWyOK6rO4/edit?usp=sharing)
 
 
-
+# Produktside for appudvikling med Xamarin
+Dette link skal være til en samlet side med de noter jeg har indsamlet under forløbene, hvis de ikke skal ligge i et google docs.  
+[Xamarin Læringsside](https://rasmustangaa.github.io/4.semester-projekt/Pictures/XamarinLæringsside/)  
 
 # Uge 6-7
 Plan for ugen:
@@ -80,9 +85,29 @@ Refleksioner på ugerne:
 - Muligvis noget fokus på at lave noget med MAUI, og måske prøve MAUI med blazor, da blazor virkede super godt til web applikationer fra 3.semester. Det kunne derfor være sjovt at have lidt erfaring med dette også.
 - Ellers er det mest af alt at få lavet noget appen, da der ikke er så meget mere direkte teori omkring xamarin. Fokus lægges nok meget over på IT-sikkerhed, da emnet har været lidt forsømt.
 
+Refleksioner:
+- Umiddelbart er jeg færdig med de kurser jeg har fremsat, så alt mit fokus kommer til at ligge på It-sikkerhed i fremtiden. Når jeg finder tid til det, så vil jeg lave noget på mit app produkt, hvilket er løbende med at dem der skal lave raspberry py server får sat den op, så jeg kan hente og sende data til den.
 
+# Uge 14/Virksomhedsbesøg Hesehus
+Min gruppe og jeg havde spurgt Hesehus om vi måtte komme og besøge dem,  
+da vi samlet som gruppe havde en masse emner der passede ind i deres virksomhed.
+Disse emner bestod af:  
+- Appudvikling
+- Webudvikling
+- IT-sikkerhed
+- UI/UX
 
+Besøget hos Hesehus var rigtig spændende, selvom vi som sådan ikke rigtig fik noget "faglig" viden, hvis man kan kalde det det.   
+Derimod så var det en rundvisning af alle deres afdelinger, lige fra start med marketing og sociale medier afdeling, til Systemudviklings afdeling, dernæst UI/UX   afdeling, og til sidst selve udviklingsteamet, som lavede de ønskede IT-løsninger som enten mobile apps eller web apps.  
 
+# Uge 15 Påskeferie
+
+# Uge 16-20
+- Først og fremmest er en del af tiden gået med det pentesting kursus jeg har været igang med til IT-sikkerhed.
+- Derudover har jeg brugt den resterende tid på at lave den mobile applikation med en raspberryPy server forbundet.
+
+Refleksioner:
+- Alt i alt er jeg kommet i mål med en mobil applikation, som har et login system gennem firebase, og som forbinder til en raspberryPy, hvor man kan hente en playliste af sange, samt sende sange til playlisten, ud fra brugeren af applikationens ønske. Derudover har en bruger forbundet nogle tokens, som man kan købe, for at bruge dem på at lægge sange i sangkøen. Det eneste minus er, at man ikke forbinder til en rigtig bar, samt at der ikke er noget betalingssystem forbundet, da vi ikke er på et højt nok fagligt niveau til at forbinde det.
 
 
 Litteratur:
