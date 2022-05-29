@@ -141,6 +141,52 @@ Men det kan også være farlige scripts, som f.eks at man stjæler login tokens 
 Eller en keylogger, som onfanger alt hvad en bruger indtaster gennem deres keyboard på deres pc:  
 ![image alt text](Billede14.png)  
 
+Her er der forskellige typer XSS. Den første er reflected XSS.  
+Her sender "hackeren" et link til en hjemmeside, hvor der indgår et script, som bliver executet lige så snart en bruger trykker på linket, og tilgår hjemmesiden.  
 
+Derudover er der Stored XSS.  
+Her gemmer "hackeren" scriptet på en hjemmesides database, og når andre bruger tilgår hjemmesiden, og data fra databasen hentes, så kan scriptet blive executet.  
+
+Derudover er der DOM Based XSS.  
+Her vil der være et link på en hjemmeside, som en bruger uskyldigt tror er et link til noget andet, men i stedet for bliver brugeren videreført til "hackerens" hjemmeside, hvor scriptet bliver executet.  
+
+Til sidst er der Blind XSS, som er det samme som Stored XSS, bortset fra, at man ikke kan se sit payload script blive executet.  
+
+Hertil har jeg udført nogle exercises, hvor jeg udfører disse XSS angreb.  
+Her er et par eksempler:  
+I begge eksempler prøver jeg at bryde uden om den input validering der er.  
+![image alt text](Udklip8.PNG)
+![image alt text](Udklip9.PNG)  
+
+Dette er kun 2 ud af 6 eksempler.  
+Derudover er der også lavet en øvelse med blind XSS.  
+
+Næste underemne er Command injection.  
+Generelt omhandler det hvordan man kan indsætte commands på en hjemmeside, som så blive executet på en brugers pc.  
+Command Injection fungere dog kun, hvis man bruger en applikation som udfører commands på en pc, f.eks "grep" til at søge efter filer.  
+Hvis applikationen derfor er lavet uden input validering, så vil man kunne bytte commanden ud med en anden command.  
+
+Et praktisk eksempel på brugen af Command Injection er den øvelse jeg lavede til:  
+
+![image alt text](Billede15.png)  
+Her executer man altså whoami på pc.  
+Eksemplet gør ikke brug af input validering, da jeg bare kan skrive hvilken som helst command ind. Man kan derfor sikre meget af sin applikation ved blot at lave god input validering.  
+
+Sidste underemne er SQL injection.  
+Dette emne har jeg arbejdet med mange gange før under uddannelsen, men da det var en del af kurset, så gennemførte jeg det stadig som en slags genopfriskning.  
+SQL injection er når man executer usikre queries til sin SQL database, hvor man som "hacker" kan udføre alle former for ingreb med SQL sprog, hvis der ikke er  
+god input validering.  
+
+Første eksempel er et In-Band Sql-injection, der betyder, at man f.eks opdager en SQL injection usikkerhed på en side, og dermed også kan hente data ud fra SQL databasen på samme side ved at bruge SQL injections.  
+
+![image alt text](Udklip10.PNG)  
+
+Derudover er der Blind SQL injection. Her er der tale om, at man ikke får nogle error message, så man ikke ved om der er SQL injection eller ej. Men hvis man udfører  
+en SQL injection som virker, så vil man selvfølgelig få det at se.  
+![image alt text](Udklip11.PNG)  
+
+Derudover er der mange andre eksempler på disse typer SQL injections i google docs dokumentet.  
+
+# Burp Suite - Andet hovedmodul  
 
 
