@@ -29,6 +29,38 @@ Dertil blev de forskellige værktøjer i developer tools gennemgået, som omhand
 
 Dernæst var det "Content Disovery", som omhandler hvilke måder man kan indhente informationer omkring et website på.  
 
+Her var det lige fra at tilgå hjemmeside paths, som burde være lukket ned fra udviklerens side:
+![image alt text](Billede2.png) 
+
+Og derudover at bruge favicons(hjemmeside url logoer) til at indhente informationer omkring framework:
+![image alt text](Billede3.PNG)  
+
+Derudover prøvede man også at sende requests afsted til hjemmesiden, hvor man kunne få informationer omkring serveren osv:
+![image alt text](Billede4.PNG)
+
+Derudover kunne der også gemme sig kommentarer, der burde være slettet, når man kigger på en hjemmesides page source:
+![image alt text](Billede5.png)
+
+Hvor man tilgik framework hjemmesiden og indsamlede informationer omkring login i dette tilfælde:
+![image alt text](Billede1.1.png)
+
+Som i dette tilfælde kunne bruges til noget login på den hjemmeside der bruger frameworket:
+![image alt text](Udklip.PNG)
+
+Eksemplet med at have så dårligt et login system er dog nok ikke så mange der bruger i den virkelige verden.  
+
+Dernæst blev der gennemgået en masse automatiserende processer, blandt andet hvor man bruger wordlists der f.eks indeholder kodeord,  
+som man kan prøve af automatisk, i stedet for at skulle taste det ind manuelt:
+
+Der blev anvendt noget der hedder FFUF:
+![image alt text](Udklip2.PNG)  
+Her prøver man en wordlist af på en hjemmesides mange directories:  
+![image alt text](Billede1.2.png)
+
+
+
+Dernæst var det næste undermodul, som omhandlede "Subdomain Enumeration"
+
 
 
 
