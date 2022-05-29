@@ -100,6 +100,47 @@ Her brugte jeg bare developer tools i browser til at lave IDOR, da det var et ek
 
 Næste underemne er File Inclusion.
 
+Generelt handler File Inclusion om, at man i nogle applikationer vil kunne hente filer osv. Men Dette kan udnyttes ved at bruge "path traversal",  
+hvor man gå tilbage i diretories med ../  
+![image alt text](Billede10.png)  
+![image alt text](Billede11.png)  
+
+Bedste eksempel på at vise det med følgende:  
+![image alt text](Udklip4.PNG)  
+Man går tilbage i path 4 gange med ../, så man til sidst befinder sig i / folderen. Derefter er der skrevet /etc/passwd, for at kunne tilgå en passwd filen, som gerne skulle indeholde nogle kodeord til forskellige brugere.  
+
+Dette er det primære eksempel jeg har arbejdet med, og derudover har jeg arbejdet med forskellige måder der bliver input valideret, og hvordan man kan bryde dette,  
+og dermed stadig lave File Inclusion.  
+
+Et enkelt eksempel på dette kunne være task 5 - lab 3 ved file inclusion.  
+Her fortæller en error, at filen skal være en .php type fil, hvor jeg så prøver at ombryde denne input validering:  
+![image alt text](Udklip5.PNG)  
+
+
+næste underemne er SSRF.  
+SSRF står for Server-Side Request Forgery.  
+Angrebet omhandler at man sender request til en server.  
+Her kan der være to typer angreb:   
+-	data bliver returneret til hackeren.
+-	Blind SSRF - angrebet foregår, men det bliver ikke returneret noget til hackeren.
+
+Uden at gå for meget i dybden SSRF, så vil jeg bare vise et eksempel for det. Resten kan selvfølgelig læses i google docset.  
+![image alt text](Udklip6.PNG)  
+![image alt text](Udklip7.PNG)  
+Her ender jeg ud med at bruge directory traversal fra forrige underemne til at jeg rent faktisk udfører en SSRF angreb.  
+Hvis man kigger i page source efterfølgende, så vil informationer fra path /private være lagt ind "encoded" i base64 format, og man har dermed lavet  
+et request af noget data, som man ikke burde have adgang til.  
+
+Næste underemne er Cross-Site Scripting  
+Her handler det om, at man gerne vil have lagt et javascript script over på en anden computer, hvor det så bliver executet, og udfører et eller andet.  
+I de eksempler jeg har arbejdet med har man bare brugt XSS payload script, som laver en pop up box med alert:  
+
+![image alt text](Billede12.png)  
+Men det kan også være farlige scripts, som f.eks at man stjæler login tokens gennem cookies:
+![image alt text](Billede13.png)  
+Eller en keylogger, som onfanger alt hvad en bruger indtaster gennem deres keyboard på deres pc:  
+![image alt text](Billede14.png)  
+
 
 
 
