@@ -59,8 +59,46 @@ Her prøver man en wordlist af på en hjemmesides mange directories:
 
 
 
-Dernæst var det næste undermodul, som omhandlede "Subdomain Enumeration"
+Dernæst var det næste undermodul, som omhandlede "Subdomain Enumeration"  
+Afsnittet omhandler, at man skal prøve at finde subdomæner til en hjemmeside.  
+Her blev der brugt metoder som Brute Force, OSINT og Virtual host.
 
+Brute Force:  
+![image alt text](Billede6.png)
+
+OSINT - Sublist3r:  
+![image alt text](Billede7.png)
+
+Næste underemne består af Authentication Bypass
+
+Emnet omhandler hvordan man et websites authentication kan blive brudt.
+
+Man starter med at finde brugernavne, ved at indtaste brugernavne på en hjemmeside, som så derefter typisk vil fortælle, om det pågældende brugernavn eksisterer.  
+
+![image alt text](Billede8.png)
+De fundne brugernavne gemmes i et dokument til senere.
+
+Herefter udfører man automatiserede brute force angreb med brugernavne listen, samt med en liste med almindelige brugte kodeord.  
+![image alt text](Billede9.png)  
+
+Dette er kun et af forskellige eksempler på authentication bypass. i google docs kan der også ses eksempler med at man lavet reset på et password,  
+samt hvordan man manipulere med cookies, for at logge ind.  
+
+Næste underemne er IDOR
+IDOR står for Insecure Direct Object Reference, og er når man fra client side beder om nogle filer, data eller dokumenter, men der bliver ikke  
+sikkerhedschekket fra server siden af, så man ved ikke om filerne tilhører brugeren.  
+
+Et eksempel jeg har gennemgået til dette emne er f.eks at man har en lignende url:  
+online-service.thm/profile?user_id=1305   
+Her kan man se nogle data om en bruger der har et id på 1305.  
+Men hvis man ændrer i url, så der f.eks står 1000 i stedet, så vil man se informationer omkring en bruger med id på 1000.  
+Dette er et IDOR brud. Derudover fremgår der flere eksempler hvor værdien er hashed og meget mere i google docs.  
+
+Hertil har jeg et lille praktisk eksempel, som jeg selv lavede med IDOR:   
+![image alt text](Udklip3.PNG)  
+Her brugte jeg bare developer tools i browser til at lave IDOR, da det var et eksempel, hvor der i url ikke var mulighed for at ændre id.
+
+Næste underemne er File Inclusion.
 
 
 
