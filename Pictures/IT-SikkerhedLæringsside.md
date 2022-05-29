@@ -1,13 +1,22 @@
-# Software Quality Assurance - 2
+# IT-sikkerheds produktside
 
-# Code review
+På denne side vil der blive fremlagt nogle af de mest centrale produktrelaterede resultater,  
+som jeg har opnået i løbet af semesteret.
 
-Plan for hvordan man normalt vil gennemgå kvalitet af den kode man laver.
+Hertil skal det nævnes, at der vil tages udgangspunkt i de resultater jeg har opnået undervejs i mit TryHackMe kursus.  
+Kurset er opbygget således, at man får noget teori man læser igennem, og derefter skal man prøve nogle eksempler i praksis,  
+så man får en forståelse for, hvad teorien kan bruges til.  
 
-![image alt text](image_0.png)
+Der vil altså ikke blive brugt direkte eksempler, som relaterer sig direkte til det produkt, der skulle laves til virksomheden Megahard.  
+Dette er grundet, at det It-sikkerhed med penetration testing som kurset har drejet sig om, hovedsagligt har været websites som angrebsmål.  
+Da jeg ikke har stået for at skulle lave hjemmeside i gruppen, men derimod en app i mit andet emne, så har det været lidt svært med tiden at få det til at passe.
 
-# Software testing
+Eksemplerne der vil blive gennemgået er kun en lille del af det samlede læringsprodukt, som består af over 300 siders samlet teori og øvelser. Dette ville kunne ses ved at gå tilbage, og trykke ind på "TryHackMe - JR Penetration Tester", hvor man videreføres til et google docs. Eksemplerne vil ydermere kun bestå af de endelige resultater for hvert emne i kurset, og ikke rigtig selve teorien og selve udførelsen af øvelserne, da dette kan ses i google docs dokumentet.
 
-Verification vs Validation
+# Introduction to webhacking - Første hovedmodul
+
+
 
 ![image alt text](image_1.png)
+
+
