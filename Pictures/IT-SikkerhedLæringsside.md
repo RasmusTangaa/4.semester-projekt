@@ -313,6 +313,49 @@ Eller bruge Traceroute til at finde de routere der ligger mellem målet og ens e
 Derudover indeholder nmap ved default omkring 600 scripts man kan bruge, og dermed skaffe ekstra informationer.  
 
 Dernæst indeholder hovedforløbet også noget med protocoller og serverer.  
+Generelt omhandler det lidt teori om forskellige protokoller som: 
+- HTTP 
+- FTP
+- POP3
+- SMTP
+- IMAP
+
+Derudover også brugen af Telnet, som er en applikations lags protocol, og kan bruges til at forbinde mange forskellige porte.  
+f.eks med HTTP, som bruges til overførsel af web pages:  
+![image alt text](Udklip25.PNG)  
+Eller FTP, som bruges til overførsel af filer mellem forskellige PC'er:  
+![image alt text](Billede29.png)  
+Jeg kunne godt vise de andre protokoller, men det bliver for langt. Igen henvises til google docs.  
+
+Udover teorien omkring disse protokoller, så var jeg også igennem nogle angreb man kunne udføre på dem.  
+Her har det været ting som:  
+1.	Sniffing Attack (Network Packet Capture)
+2.	Man-in-the-Middle (MITM) Attack
+3.	Password Attack (Authentication Attack)
+
+Sniffing Attack er f.eks hvor man opsnapper netværks packets med følsomme oplysninger. Her er et eksempel med TCPdump, som er et program/command der kan opsnappe disse netværks packets.  
+![image alt text](Udklip26.PNG)  
+Man-in-the-Middle gør brug at, at man har en hacker siden i mellem afsender og modtager, og dermed kan opsnappe oplysninger:  
+![image alt text](Billede30.png)  
+Generelt kan man sige, at alle protocoller, hvor man sender cleartext gennem alle disse protocoller der befinder sig i applikation laget.  
+Herved introducerede man Presentation laget med SSL/TLS, som sørger for at krypterer ens data, så det dataen ikke kan læses.  
+
+Derudover er der Password Attack, hvor man går efter at gætte kodeord, som jeg også har været igennem tidligere.  
+Derudover har jeg også prøvet et eksempel med et værktøj der hedder hydra:  
+![image alt text](Billede31.png)  
+Hvor Lazie er brugernavn, samt en ordliste tilknyttet, hvor man kører forskellige muligheder igennem.  
+
+Til slut var der en lang række øvelser jeg kørte igennem omkring alt jeg havde været igennem med hovedforløbet. Her er der et par eksempler:  
+![image alt text](Udklip27.PNG)  
+![image alt text](Udklip28.PNG)  
+![image alt text](Udklip29.PNG)  
+![image alt text](Billede32.png)  
+
+# Vulnerability Research - Fjerde hovedmodul 
+
+
+
+
 
 
 
