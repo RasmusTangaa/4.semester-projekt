@@ -260,5 +260,61 @@ Derudover er det også noget som hedder "Extender", hvor man kan få ekstra funk
 ikke gå i dybden med, da der er meget forskelliget.  
 
 
+# Network Security - Tredje Hovedmodul
+Først og fremmest kommer jeg ind på en del teori omkring passive Reconnaissance og active Reconnaissance.  
+passive Reconnaissance er den "lovlige" måde at indhente informationer på, da man tilgår offentlig tilgængelige informationer uden at interagere direkte med en server osv.  
+Active Reconnaissance er derimod når man interagere direkte med sine mål, hvilket er noget af der bliver kigget mest på i løbet af dette hovedmodul.  
+Man skal dog passe på med Active Reconnaissance, da det er ulovligt at udføre disse "angreb", hvis man ikke er autoriseret til det.  
+
+En stor del af de angreb jeg har lavet, har været med nmap command.  
+Da forløbet var rimelig langt vil der kun blive vist de mest centrale resultater fra øvelser med commanden.  
+
+Først skal man finde sine forskellige mål med nmap.  
+
+![image alt text](Billede26.png)  
+Man bruger altså nmap til at finde 8 "mål"  
+Man skal dog være opmærksom på, at der kan være forskel på hvilke scans man skal udføre, ud fra hvilke privileger man har som bruger.   
+Hvis man er en root bruger, hvor man har alle privileger, samt at man skal lave scanning på et lokalt netværk(Ethernet), så kan man bruge ARP scan:  
+![image alt text](Billede27.png)
+![image alt text](Billede28.png)  
+Derimod hvis man laver scaninnger uden for det lokale netværk, så må man istedet f.eks anvende et echo request:  
+![image alt text](Udklip14.PNG)  
+Til aller sidst, så er der hvis man er en uprivilegeret bruger, så må man istedet bruge TCP 3-way handshake:  
+![image alt text](Udklip15.PNG)  
+
+Når man har fundet de forskellige livehosts/mål, så er det tid til at scanne efter åbne porte. Dette gøres med disse eksempler:  
+For en ikke privilegeret bruger:  
+![image alt text](Udklip16.PNG)  
+For en privilegeret root bruger:  
+![image alt text](Udklip17.PNG)  
+Herved finder man altså åbne porte.  
+
+Derudover er der nogle advancerede port scanninger. Igen så vil jeg kun tage nogle få eksempler, som jeg føler er vigtigst.  
+Igen så handler alle scanningerne om, om portene er åbne eller ej.  
+Først et null scan.  
+![image alt text](Udklip18.PNG)  
+Dernæst et TCP ACK scan:  
+![image alt text](Udklip19.PNG)  
+Derudover er der noget som hedder Spoofing, hvor man sender nogle packets til målets ip, som så redirecter et respons over til en spoofing ip, som "hackeren" har.  
+Målet er selvfølgelig at man ikke vil opdages.  
+![image alt text](Udklip20.PNG)  
+Derudover er der Decoys, som er lidt det samme som spoofing, bortset fra at det ligner, at scanningen kommer fra mange flere ip adresser.  
+![image alt text](Udklip21.PNG)  
+
+Nu hvor man har fundet sine mål, samt har udført en række port scaninnger for at se hvilke porte der er åbne, så skal man gerne have et eller andet ud af det.  
+Nogle af de ting man blandt kan tilføje til sine scanninger er:  
+Service og version informationer omkring portene:  
+![image alt text](Udklip22.PNG)  
+Derudover kan man kigge på Operativ system informationer:  
+![image alt text](Udklip23.PNG)  
+Eller bruge Traceroute til at finde de routere der ligger mellem målet og ens egen ip adresse.  
+![image alt text](Udklip24.PNG)  
+
+Derudover indeholder nmap ved default omkring 600 scripts man kan bruge, og dermed skaffe ekstra informationer.  
+
+Dernæst indeholder hovedforløbet også noget med protocoller og serverer.  
+
+
+
 
 
