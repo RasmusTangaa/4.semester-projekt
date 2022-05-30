@@ -189,4 +189,76 @@ Derudover er der mange andre eksempler på disse typer SQL injections i google d
 
 # Burp Suite - Andet hovedmodul  
 
+Andet hovedmodul bestod af brugen af værktøjet Burp Suite, som bruges til at opfange requests fra webservere.  
+Jeg vil kort komme ind på hvordan værktøjet bruges i en webbrowser, og hvilke funktionaliter der kan bruges, der bliver vist gennem nogle øvelser.  
+Brup suite funktionaliteter:
+- Repeater
+- Intruder
+- Decoder
+- Comparer
+
+Først og fremmest skal man installere programmet, og derefter aktivere man den i sin browser
+![image alt text](Udklip12.PNG)  
+Man tilføjer altså her sin Burp suite proxy, så når den er aktiv, så vil den opsnappe alle requests man tilgår på sin browser.  
+![image alt text](Billede16.png)  
+
+Herefter opsnapper man en request gennem proxy tab i sit burp suite, som man kan manipulere.  
+
+![image alt text](Billede17.png)  
+
+derudover en opgave jeg lavede, som viser brugen af Burp suite.  
+Her har man opsnappet en POST request, hvor der bliver ændret i en parameter, så man lægger et script ind istedet.  
+![image alt text](Billede18.png)  
+
+Nu vil der kigges på de andre funktionaliter. Eksemplere vil kun være en lille del af de samlede opgaver jeg har været igennem, og kan selvfølgelig ses i google docs.  
+
+Dernæst tages der et kig på Repeater:  
+Repeater bruges, når man har et request der skal køres igennem mange gange med nogle få ændringer hver gang.  
+Det kunne f.eks være følgende url:  
+![image alt text](Billede19.png)  
+Hvor man vil ændre input fra "1" til forskellige ting, for at se hvilket respons man får tilbage.  
+Der kunne f.eks gemme sig en SQl injection usikkerhed, hvis man indtaster ' og får en error 500 tilbage:  
+![image alt text](Billede20.png)  
+
+Dernæst tages der et kig på Intruder:  
+Intruder er en form for automatiseret udgave af Repeater.  Her vil man anvende nogle ordlister med f.eks kodeord, og så vil Intruder automatisk udskifte et ord i request, med et ord ad gangen for ordlisten.  
+
+Derudover er der også forskellige angreb, som Intruder kan bruge, som er Sniper, Battering Ram, Pitchfork og Cluster bomb.  
+Beskrivelser og eksempler på dem står i google docs.  
+Jeg vil anvende et enkelt eksempel, for at vise intruder. Angrebet er pitchfork:  
+Pitchfork er når man automatisere flere positioner samtidig. Man kan også sige, at man har flere snipers kørende samtidig, da sniper kun er en position.  
+Man har sin request:  
+![image alt text](Billede21.png)  
+
+Man lægger sine ordlister ind, hvilket er to i dette tilfælde, da der er to positioner som skal tjekkes.  
+![image alt text](Billede22.png)  
+Herefter bliver der kørt en masse requests igennem, og man skal her holde øje med succes koden 200. Dermed ved man, at det var et succesfuldt login.  
+Hvis ikke man får 200, men derimod 302, så må man kigge på respons length, da et succesfuldt resultat vil være kortere.  
+
+
+
+Dernæst et kig på de sidste 3 funktionaliter.  
+
+
+Decoder:  
+Kan bruges til at decode noget data til et andet format, eller encode det til et andet format.  
+Et eksemple kunne være følgende:  
+![image alt text](Udklip13.PNG)  
+
+Comparer:  
+Giver mulighed for at sammenligne to stykke data.  
+Et eksempel kunne være to requests man sammenligner fra intruder af, hvor man har et succesfuldt respons, og et ikke succesfuldt respons. Dermed kan man hurtigt få øje på forskellene:  
+![image alt text](Billede23.png)  
+
+Sequencer:  
+Kigger på randomness ved session cookies eller CSRF tokens der beskytter en "form submission".  
+Hvis disse tokens ikke er genereret tilfældigt, så kan sequencer muligvis regne det ud.  
+![image alt text](Billede24.png)  
+![image alt text](Billede25.png)  
+
+Derudover er det også noget som hedder "Extender", hvor man kan få ekstra funktionaliter, som er lavet af burp community. Dette vil jeg dog  
+ikke gå i dybden med, da der er meget forskelliget.  
+
+
+
 
