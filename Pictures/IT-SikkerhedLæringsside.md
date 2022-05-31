@@ -353,6 +353,72 @@ Til slut var der en lang række øvelser jeg kørte igennem omkring alt jeg havd
 
 # Vulnerability Research - Fjerde hovedmodul 
 
+Dette hovedmodul indeholdt generelt en masse informationer omkring hvordan man kun finde frem  til og vurdere forskellige usikkerheder, samt en lille begyndelse på hvordan man udnytter disse usikkerheder med blandet andet exploits. Her kommer femte hovedmodul ind i billedet, hvor jeg bruger Metasploit til at udnytte usikkerheder. 
+Først en tabel man vurdere usikkerheder ud fra:  
+![image alt text](Billede33.png)  
+Samt databaser med exploits der er blevet udnyttet på diverse hjemmesider:  
+NVD database:  
+![image alt text](Billede34.png)  
+Exploit-DB database:  
+![image alt text](Billede35.png)  
+
+Derudover en lille øvelse, hvor man følger 5 trin. Her går man fra at indsamle informationer omkring målet man vil angribe, til at man ved trin 4-5 søger efter et exploit, som man bruger til at udnytte usikkerheden i applikationen:  
+![image alt text](Udklip30.PNG)  
+
+Endnu et eksempel på en exploit db er Rapid7, hvor man også kan få en intro i, hvordan man skal bruge sit exploit, og hvilke trin man skal bruge:  
+![image alt text](Udklip31.PNG)  
+
+Derudover en command "Searchsploit", hvor man kan søge efter exploits der passer til en bestemt applikaton, som er lagret i databasen grundet en usikkerhed:  
+Her søger efter "online book store", hvrtil der findes nogle exploits. Her bruges den ene, som man gemmer på sin pc, og derefter bruger til at exploite med til en bestemt applikation med en ip adresse.  
+![image alt text](Udklip32.PNG)  
+
+Til hovedmodulet var der også et helt afsnit, hvor jeg skulle prøve at finde frem til en usikkerhed ved en applikation, og exploite den.  
+Da hjemmesiden brugte Fuel CMS, så søgte jeg efter exploits til det. 
+![image alt text](Billede36.png)  
+Derefter forsøgte jeg at bruge exploitet, så jeg kunne få kontrol over en commandopromt på en anden PC:  
+![image alt text](Udklip33.PNG)  
+Selve de røde streger og numrene skal der ikke lægges mærke til.  
+
+
+
+# Metasploit - Femte Hovedmodul
+En af de helt sjove moduler, hvor jeg fik lov til at bruge en masse exploits på hjemmesider gennem Metasploit:  
+Jeg vil ikke bruge tid på at forklare metasploit, men derimod vise den centrale resultater:  
+Men generelt kan det siges, at Metasploit fungere således, at man kan vælge imellem en masse forskellige exploit modules, hvor man til hver module kan sætte indstillinger. Herefter kører man sit exploit, som giver et eller andet form for resultat.  
+
+f.eks kan man kigge på følgende billede:  
+![image alt text](Udklip34.PNG)  
+Her har man valgt et exploit "ms17_010_eternalblue", hvor man sætter sine indstillinger. Blandt andet hvilken ip adresse der skal angribes.  
+Herefter exploiter man, og derved åbnes remote control over commando promt på den angrebne PC.  
+
+Derudover er der også noget som hed msfvenom, hvor man kan lave sine egne payloads/exploits, og bruge dem. Hertil en øvelse:  
+En kort forklaring er, at jeg laver et payload i en fil, som lægges over på den angrebne maskine, som så bliver executet, og dermed opnår jeg remote control til kommando promt fra min egen maskine gennem en python http server, som er sat op til at lytte. Remote control opnår til sidst med meterpreter, som fungere som en slags "agent" til at udføre commands uden at den kan ses på PC'ens harddisk.  
+![image alt text](Udklip35.PNG)  
+![image alt text](Udklip36.PNG)  
+![image alt text](Udklip37.PNG)  
+![image alt text](Udklip38.PNG)  
+
+ Et eksempel er følgende, hvor man kan se, at meterpreter har et proces id på 1304, men med et andet navn, så den ikke bliver opdaget:  
+ ![image alt text](Udklip39.PNG)  
+ 
+ Når man har lavet sine exploits, og f.eks har opnået remote control til kommandopromt, så skal man også sørge for at indhente noget vigtigt data.  
+ Her kan jeg vise eksempler fra en øvelse, hvor jeg lavede denne type exploit, og fik adgang til en anden maskine.
+ Sysinfo command:  
+ ![image alt text](Billede37.png)  
+ Eller hashdump. 
+ ![image alt text](Udklip41.PNG)  
+ Eller man kan også bare bruge helt normale commands som ls og cat til at finde filer, og derefter læse dem:  
+  ![image alt text](Udklip42.PNG)  
+ Derudover kan man bruge post-exploit moduler til at indsamle informationer:  
+ ![image alt text](Udklip40.PNG)
+ 
+ # Privilege Escalation sjette hovedmodul
+ Det sidste hovedmodul handler om privlege Escalation, og bruges til når man vil have løftet rettigheder/privileger fra almindelig bruger på et system til root bruger, så man har adgang til alt indhold på en PC. Derfor komme modulet også til sidst, da man har været igennem hvordan man exploiter maskiner, og kan opnå remote control over kommandopromt.  
+ 
+ 
+
+
+
 
 
 
