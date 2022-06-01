@@ -414,7 +414,53 @@ En kort forklaring er, at jeg laver et payload i en fil, som lægges over på de
  
  # Privilege Escalation sjette hovedmodul
  Det sidste hovedmodul handler om privlege Escalation, og bruges til når man vil have løftet rettigheder/privileger fra almindelig bruger på et system til root bruger, så man har adgang til alt indhold på en PC. Derfor komme modulet også til sidst, da man har været igennem hvordan man exploiter maskiner, og kan opnå remote control over kommandopromt.  
- 
+
+Øvelserne jeg har været igennem har både været med linux og Windows. Eksemplerne jeg vil bruge her vil bestå af Linux eksemplerne.  
+Når jeg arbejder med privilege escalation, så har jeg typisk brugt det der hedder netcat. Derudover så er der to typer shells man arbejder med. Disse er: 
+- Reverse shells, som er når målets PC bliver tvunget til at execute kode, som forbinder shell til "hackerens" pc gennem en netcat listener.  
+- Bind shells, som er når målets pc bliver tvunget til at starte en listener op selv, og dermed kan man fra andre PC'er forbinde til denne port.  
+
+
+Eksempel på reverse shell:  
+en netcat listener på egen PC er startet, og der executes noget kode gennem en fil der er oploadet til hjemmesiden. Dette kode får målets PC til at forbinde til netcat serveren, så man har adgang til en shell på målets PC.  
+![image alt text](Billede38.png)  
+![image alt text](Udklip43.PNG)  
+![image alt text](Udklip44.PNG)  
+
+Eksempel på Bind shell:  
+1. Her opstartes en listener på målets PC, som man så forbinder til fra egen PC(10-10-106-187).  
+![image alt text](Udklip45.PNG)  
+
+Herefter til det lidt mere specifikke privilege escalation på Linux med nogle eksempler:  
+Her er der blevet kigget på forskellige typer privilege escalation, som er: 
+- Kernel Exploits
+- Sudo Exploits
+- SUID Exploits
+- Capabilities 
+- Cron jobs
+- Path 
+- NFS
+
+Alle øvelser kan ses i google docs. Jeg vil vise 2 eksempler, for at det ikke fylder for meget her.  
+
+Kernel Exploits:  
+Generelt så finder jeg privilege escalation usikkerheden gennem kernel version, hvor jeg finder et exploit til, som jeg laver til en fil. Filen lægges over på målets PC, som jeg allerede har fået adgang til, og derefter executes filen, så jeg får root rettigheder.  
+![image alt text](Udklip46.PNG)  
+![image alt text](Udklip47.PNG)  
+![image alt text](Billede39.png)
+
+
+
+Cron jobs:  
+Hertil skal det lige nævnes, at cron jobs/tabs er nogle scripts/binaries der køres på bestemte tidspunkter. F.eks hvert minut, eller hver time. Disse kan udnyttes, hvis man finder nogle cron jobs, som ikke er slettet ordentligt:  
+![image alt text](Udklip48.PNG)  
+![image alt text](Udklip49.PNG)  
+
+
+Dermed slutningen på hele Junior Penetration testing kurset, hvor jeg har modtaget et bevis for det, som der er vist i starten.  
+
+
+  
  
 
 
