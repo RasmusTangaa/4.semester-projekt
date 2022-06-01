@@ -5,7 +5,7 @@ I dette semester har jeg 2 specialiseringsemner, som er følgende:
 2. [IT-sikkerhed](https://rasmustangaa.github.io/4.semester-projekt/IT-sikkerhed)
 
 I forhold til eksamen, så er der på siderne som de to links fører hen til lavet yderligere links, som fører hen til produktsiden for begge emner.  
-Umiddelbart vil det være bedst at tage dem i rækkefølgen som de står i på den side, da Xamarin siden forklare noget omkring projektet, og hvad der har skulle laves.  
+Umiddelbart vil det være bedst at tage dem i rækkefølgen som de står i på denne side, da Xamarin siden forklare noget omkring projektet, og hvad der har skulle laves.  
 
 
 Derudover har jeg følgende sider:
