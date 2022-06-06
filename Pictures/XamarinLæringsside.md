@@ -40,5 +40,29 @@ Herefter tilskriver man Command property til en bestemt metode.
 ![image alt text](Udklip60.PNG)  
 Hvor metoden også ligger i Viewmodel, og er faktisk en metode som allerede er vist længere oppe i form af "UpdateUserAsync".  
 
+Efter denne korte gennemgang af MVVM arkitekturen til min app, så tænker jeg at jeg vil vise nogle af de funktionaliter, som gør sig gældende i den app jeg har lavet.  
+Generelt er funktioaliterne:  
+- Login side med email og kodeord
+- Registerings side med email, kodeord, brugernavn og mobilnummer. Her fungere mobilnummeret som en validering af kontoen, da brugeren får et godkendelses besked tilsendt, hvor man så indtaster en kode i appen.  
+- en konto side, hvor man kan ændre nogle af sine kontooplysninger. f.eks brugernavn.  
+- En side hvor man kan se den nuværende playliste med de sangnumre der kan afspilles.  
+- en side hvor man kan forbinde til en bar, og derefter vælge en sang der skal indsættes i playlisten mod betaling af 1 token.  
+- en side til at lægge flere tokens ind.  
+
+Jeg vil starte med at vise login og registrerings siden, hvor jeg til dette formål har bruge googles firebase. Her er der en authentication database med brugerens email og kodeord, som jeg har forbundet med deres realtime database til at oplagre data om brugeren som mobilnummer og brugernavn. Databasen gør brug af NoSql, hvilket er en forandring i forhold til tidligere semestre. I NoSQl har man en hel del mere fleksibilitet, da man kan gemme en hel masse ustruktureret data. Ulempen er selvfølgelig, at det kan være svært at navigere i, hvis man har meget forskelligt data. I mit tilfælde har det dog kun været bruger informationer, da jeg kun har brugt det til login authentication.  
+
+Først login siden:  
+![image alt text](Udklip61.PNG)  
+På siden har man mulighed for at indtaste email og kodeord.  Ting som "Remember me" og "Forgot password" er dog ikke implementeret, da jeg ikke har vurderet det så højt.  
+Derudover kan man trykke på "Sign in", når man har tastet de rigtige login oplysninger, samt trykke på "Sign Up", hvis man ikke har en konto.  
+Herefter Registeringssiden:  
+![image alt text](Udklip62.PNG)  
+På denne side taster man oplysninger ind i de 4 felter. Når man har gjort det, så kan man bede om en validerings sms, hvor man så taster den kode ind, som man har modtaget på sin mobil nummeret tilhører.  
+Herefter er man registeret. Disse ting vises på billederne nedenunder:  
+![image alt text](Udklip63.PNG)  
+Man trykker altså på "Send Verification sms", hvortil at man får tilsendt en kode til det angivne nummer. Nummeret er et testnummer jeg anvender, hvor den faste kode tilsendt er 123456.  
+![image alt text](Udklip64.PNG)  
+Herefter trykker man på "Verify code", hvortil at hvis koden passer, så bliver man registeret, samt automatisk logget ind.  
+
 
 
