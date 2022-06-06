@@ -12,7 +12,7 @@ Hertil har jeg som beskrevet designet en app, som ligesom billedet viser, forbin
 Undervejs vil jeg beskrive hvordan jeg sætter den færdige server op, så jeg kan bruge den til mit behov, nemlig at forbinde til min app.  
 Serveren er lavet således, at den er forbundet til spotify, hvor det kræves, at man har spotify premium, hvis man gerne vil lægge sange op i Queue gennem serveren, som bruger en spotify api. At hente playlisten ned kræver derimod ikke spotify premium.  
 
-På mit PC har jeg en mappe med hele projektet af RaspberryPy, som har python som sprog. Dette har jeg hentet fra Maliks github.  
+På min PC har jeg en mappe med hele projektet af RaspberryPy, som har python som sprog. Dette har jeg hentet fra Maliks github.  
 For at starte serveren laver jeg en git bash på mappen, hvor jeg starten serveren med følgende:  
 ![image alt text](Udklip54.PNG)  
 
