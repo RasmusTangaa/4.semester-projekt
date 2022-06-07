@@ -78,7 +78,28 @@ Først er der "Songs" tabben, som åbner siden man kan se på billedet nedenunde
 Hele formålet med denne side er, at man skal kunne se en liste med de sange der er i queue på den pågældende bar. Jeg har dog kun mulighed for at teste appen med den python server, som jeg har sat op tidligere. Hvis det var ude i den virkelige verden, og man havde mange barer, så skulle hver bar have en server der kunne forbindes til. Det ser således ud, når der ligger en sang i queue:  
 ![image alt text](Udklip69.PNG)  
 Selve designet kunne selvfølgelig være pænere, men min hovedprioritet har været at få funktionaliteten i appen til at virke.  
-Dernæst er der tabben til venstre, som jeg har kaldt "Bar Connect", som åbner en side hvor man "forbinder" til en bar, og derefter kan vælge at lægge en sang i queue mod betaling af tokens.
+Dernæst er der tabben til venstre, som jeg har kaldt "Bar Connect", som åbner en side hvor man "forbinder" til en bar, og derefter kan vælge at lægge en sang i queue mod betaling af tokens.  
+![image alt text](Udklip70.PNG)  
+Man vælger her en bar, og Trykker herefter på knappen "Connect To Bar"  
+![image alt text](Udklip71.PNG)  
+Når det er gjort, kan man se hvilken bar man er forbundet til, og herefter kan man vælge en sang der skal sættes i queue.  
+![image alt text](Udklip72.PNG)  
+Når man har sat en sang i queue, så kan man gå over til "Songs" tabben igen, og se at sangen er sat i queue:  
+![image alt text](Udklip73.PNG)  
+Derudover kan man se, at ens "Token Amount" er gået fra 10 til 9, da det koster 1 token, at sætte en sang i queue.  
+
+Til sidst kan siden, hvor man kan lægge flere tokens ind vises.  
+Her trykker man på "Token Amount: 9", som pilen på forrige billede pegede på. Herefter kommer man til følgende side:  
+![image alt text](Udklip74.PNG)  
+På siden kan man med en slider bestemme en antal tokens man vil købe. Her har jeg dog sat maks til 10, men det kunne være hvilket som helst nummer.  
+Herefter kan man se total prisen på tokens, hvorefter man kan trykke på knappen "Buy 5 Tokens" i dette tilfælde, hvor man har valgt 5 med slideren:  
+![image alt text](Udklip75.PNG)  
+Herefter kan man trykke på "Go Back" knappen, og se at man nu har 14 tokens i stedet for 9:  
+![image alt text](Udklip76.PNG)  
+
+I princippet var det meningen at der skulle kunne kobles en form for betalingsystem til at kunne købe disse tokens, men det er lige umiddelbart uden for min rækkevidde. Jeg overvejede at lave mit eget lille betalingssystem til, men vurderede, at det nok ikke var tiden værd.  
+
+
 
 
 
