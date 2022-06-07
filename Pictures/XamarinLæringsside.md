@@ -64,5 +64,21 @@ Man trykker altså på "Send Verification sms", hvortil at man får tilsendt en 
 ![image alt text](Udklip64.PNG)  
 Herefter trykker man på "Verify code", hvortil at hvis koden passer, så bliver man registeret, samt automatisk logget ind.  
 
+For lige at vise mit brug af firebase hurtigt, så gør jeg først og fremmest brug af deres Authentication database:  
+![image alt text](Udklip65.PNG)  
+Hertil har jeg valgt authentication med henholdvis email og mobil nummer, da det var meningen at jeg ville godkende ved brug af email også. Fra PO's side var det dog vigtigst med mobil nummer, da folk har nemmere ved at udskifte en email, i forhold til et mobilnummer.  
+![image alt text](Udklip66.PNG)  
+Dertil har jeg også en Realtime Database forbundet fra firebase. Her er det kun "Users" table jeg bruger, hvor der på billedet kun er indsat en bruger.  
+![image alt text](Udklip67.PNG)  
+Generelt så har jeg anvendt firebase, da jeg gerne ville prøve noget nyt i forhold til database.  
+
+Dernæst til de hovedfunktionaliteterne i appen:  
+Først er der "Songs" tabben, som åbner siden man kan se på billedet nedenunder.  
+![image alt text](Udklip68.PNG)  
+Hele formålet med denne side er, at man skal kunne se en liste med de sange der er i queue på den pågældende bar. Jeg har dog kun mulighed for at teste appen med den python server, som jeg har sat op tidligere. Hvis det var ude i den virkelige verden, og man havde mange barer, så skulle hver bar have en server der kunne forbindes til. Det ser således ud, når der ligger en sang i queue:  
+![image alt text](Udklip69.PNG)  
+Selve designet kunne selvfølgelig være pænere, men min hovedprioritet har været at få funktionaliteten i appen til at virke.  
+Dernæst er der tabben til venstre, som jeg har kaldt "Bar Connect", som åbner en side hvor man "forbinder" til en bar, og derefter kan vælge at lægge en sang i queue mod betaling af tokens.
+
 
 
