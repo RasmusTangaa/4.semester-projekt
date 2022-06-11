@@ -70,7 +70,7 @@ Generelt er funktionaliterne:
 
 # kort forklaring af firebase authentication database og NoSQL til login/registering-siderne  
 
-Jeg vil starte med at vise login og registrerings siden, hvor jeg til dette formål har bruge googles firebase. Her er der en authentication database med brugerens email og kodeord, som jeg har forbundet med deres realtime database til at oplagre data om brugeren som mobilnummer og brugernavn. Databasen gør brug af NoSql, hvilket er en forandring i forhold til tidligere semestre. I NoSQl har man en hel del mere fleksibilitet, da man kan gemme en hel masse ustruktureret data. Ulempen er selvfølgelig, at det kan være svært at navigere i, hvis man har meget forskelligt data. I mit tilfælde har det dog kun været bruger informationer, da jeg kun har brugt det til login authentication.  
+Jeg vil starte med at vise login og registrerings siden, hvor jeg til dette formål har bruge googles firebase. Her er der en authentication database med brugerens email og kodeord, som jeg har forbundet med deres realtime database til at oplagre data om brugeren som mobilnummer og brugernavn. Databasen gør brug af NoSql, hvilket er en forandring i forhold til tidligere semestre. I NoSQl har man en hel del mere fleksibilitet, da man kan gemme en hel masse ustruktureret data. Ulempen er selvfølgelig, at det kan være svært at navigere i, hvis man har meget forskelligt data. I mit tilfælde har det dog kun været bruger informationer, da jeg kun har brugt det til login authentication. Det vil sige, at det kun har været en type data, i stedet for mange forskellige tables med data.  
 
 
 # Login side til app
