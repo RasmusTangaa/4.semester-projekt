@@ -8,6 +8,9 @@ I forhold til eksamen, så er der på siderne som de to links fører hen til lav
 Umiddelbart vil det være bedst at tage dem i rækkefølgen som de står i på denne side, da Xamarin siden forklare noget omkring projektet, og hvad der har skulle laves.  
 Jeg har lagt links til de to produktsider direkte her:  
 [Xamarin Lærings/Produktside](https://rasmustangaa.github.io/4.semester-projekt/Pictures/XamarinLæringsside/)  
+[IT-sikkerhed Lærings/Produktside](https://rasmustangaa.github.io/4.semester-projekt/Pictures/IT-SikkerhedLæringsside/)  
+
+
 
 
 
