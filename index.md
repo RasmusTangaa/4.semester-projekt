@@ -14,9 +14,9 @@ Jeg har lagt links til de to produktsider direkte her:
 
 
 
-Derudover har jeg følgende sider:
-1. [Om mig selv](https://rasmustangaa.github.io/4.semester-projekt/OmMig)
-2. [Om projektet](https://rasmustangaa.github.io/4.semester-projekt/Projekt)
+Derudover har jeg følgende sider:  
+[Om mig selv](https://rasmustangaa.github.io/4.semester-projekt/OmMig)
+
 
 
 
