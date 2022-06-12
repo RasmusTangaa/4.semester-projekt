@@ -411,11 +411,12 @@ En kort forklaring er, at jeg laver et payload i en fil, som lægges over på de
  Eller man kan også bare bruge helt normale commands som ls og cat til at finde filer, og derefter læse dem:  
   ![image alt text](Udklip42.PNG)  
  Derudover kan man bruge post-exploit moduler til at indsamle informationer:  
- ![image alt text](Udklip40.PNG)
+ ![image alt text](Udklip40.PNG)  
+ 
  
  # Privilege Escalation - Sjette hovedmodul
  
- # 123
+
  
  Det sidste hovedmodul handler om privlege Escalation, og bruges til når man vil have løftet rettigheder/privileger fra almindelig bruger på et system til root bruger, så man har adgang til alt indhold på en PC. Derfor komme modulet også til sidst, da man har været igennem hvordan man exploiter maskiner, og kan opnå remote control over kommandopromt.  
 
