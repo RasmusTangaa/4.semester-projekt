@@ -413,7 +413,7 @@ En kort forklaring er, at jeg laver et payload i en fil, som lægges over på de
  Derudover kan man bruge post-exploit moduler til at indsamle informationer:  
  ![image alt text](Udklip40.PNG)
  
- # Privilege Escalation sjette hovedmodul
+ # Privilege Escalation sjette hovedmodul  
  Det sidste hovedmodul handler om privlege Escalation, og bruges til når man vil have løftet rettigheder/privileger fra almindelig bruger på et system til root bruger, så man har adgang til alt indhold på en PC. Derfor komme modulet også til sidst, da man har været igennem hvordan man exploiter maskiner, og kan opnå remote control over kommandopromt.  
 
 Øvelserne jeg har været igennem har både været med linux og Windows. Eksemplerne jeg vil bruge her vil bestå af Linux eksemplerne.  
